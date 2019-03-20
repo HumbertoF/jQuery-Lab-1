@@ -6,11 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
 </head>
 <body>
-    
+        <div class = "main">
+        <h1>Table Finder</h1>
+        <h2>Pick Your Table</h2>
+        </div>
+        
+        <div class = "restaurant-floor"> 
+                <div class = "row">
+                    <div  class= "available" id= "dot1">1</div>
+                    <div  class= "available" id="dot2">2</div>
+                    <div  class= "available" id= "dot3">3</div>
+                </div>
+                <div class="row">
+                    <div  class= "available" id= "dot4">4</div>
+                    <div  class= "available" id= "dot5">5</div>
+                    <div  class= "available" id= "dot6">6</div>
+                </div>
+               <div class="row">
+                    <div  class= "available" id= "dot7">7</div>
+                    <div  class= "available" id="dot8">8</div>
+                    <div  class= "available" id="dot9">9</div> 
+               </div>
+            </div>
 
+            <div id="form" class="hide">
 
+                    <h1 id="form-header1">New Reservation</h1>
+                    <p>Table Number: <span id="table-number">1</span></p>
+                    <input class="input" id="name" type="text" placeholder="Name">
+                    <input class="input" id="phone-number"  name="phone" placeholder="Phone Number">
+                    <input class="input" id="guest-number" placeholder="How many people?">
+                    <input class="input" id="save-button" type="submit" value="Save">
+                    <button id="x" class="icon">Close</i>
+                    
+                </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src= "main.js"></script>
 </body>
 </html>
